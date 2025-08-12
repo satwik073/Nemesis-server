@@ -1,7 +1,8 @@
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-
 dotenv.config();
+console.log('Connecting to MongoDB...');
+console.log(process.env.PORT);
 
 const connectDB = async () => {
     try {
